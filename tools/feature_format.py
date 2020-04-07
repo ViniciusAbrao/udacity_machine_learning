@@ -48,7 +48,7 @@ def featureFormat( dictionary, features, remove_NaN=True, remove_all_zeroes=True
             removal for zero or missing values.
     """
 
-
+    sort_keys = '../tools/python2_lesson06_keys.pkl'
     return_list = []
 
     # Key order - first branch is for Python 3 compatibility on mini-projects,
@@ -67,7 +67,7 @@ def featureFormat( dictionary, features, remove_NaN=True, remove_all_zeroes=True
             try:
                 dictionary[key][feature]
             except KeyError:
-                print "error: key ", feature, " not present"
+                print ("error: key ", feature, " not present")
                 return
             value = dictionary[key][feature]
             if value=="NaN" and remove_NaN:
