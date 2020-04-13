@@ -5,8 +5,8 @@ Created on Wed Apr  1 16:03:30 2020
 @author: vinic_000
 """
 
-original = "practice_outliers_ages_.pkl"
-destination = "practice_outliers_ages.pkl"
+original = "python2_lesson14_keys_.pkl"
+destination = "python2_lesson14_keys.pkl"
 
 content = ''
 outsize = 0
